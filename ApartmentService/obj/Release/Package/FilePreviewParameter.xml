@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ApartmentService" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\C\#\\ApartmentService\\ApartmentService\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\C\#\\ApartmentService\\ApartmentService\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ApartmentService-Web.config Connection String" description="" value="Data Source=tcp:webinarcoffee.database.windows.net,1433;Initial Catalog=ApartmentService_db;User Id=webinarroot@webinarcoffee;Password=Rpgmakerxp12;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\C\#\\ApartmentService\\ApartmentService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApartmentService']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:webinarcoffee.database.windows.net,1433;Initial Catalog=ApartmentService_db;User Id=webinarroot@webinarcoffee;Password=Rpgmakerxp12;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\C\#\\ApartmentService\\ApartmentService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

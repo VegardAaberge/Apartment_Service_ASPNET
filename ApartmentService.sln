@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentService", "ApartmentService\ApartmentService.csproj", "{ECE74A4B-44DB-43AE-9BC2-E5C582C1AE51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{10FE00D0-AA71-49EB-995E-C833B32D2D99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{210EC25E-E622-402A-8A82-9ED5408AE6DE}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{58CD6A7F-0EB5-4FF3-ADAD-E280BD6354BB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\ApartmentService.json = PublishScripts\Templates\ApartmentService.json
+		PublishScripts\Templates\ApartmentService.param.dev.json = PublishScripts\Templates\ApartmentService.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECE74A4B-44DB-43AE-9BC2-E5C582C1AE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE74A4B-44DB-43AE-9BC2-E5C582C1AE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE74A4B-44DB-43AE-9BC2-E5C582C1AE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE74A4B-44DB-43AE-9BC2-E5C582C1AE51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{210EC25E-E622-402A-8A82-9ED5408AE6DE} = {10FE00D0-AA71-49EB-995E-C833B32D2D99}
+		{58CD6A7F-0EB5-4FF3-ADAD-E280BD6354BB} = {10FE00D0-AA71-49EB-995E-C833B32D2D99}
+	EndGlobalSection
+EndGlobal

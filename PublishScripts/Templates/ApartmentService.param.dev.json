@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "ApartmentService"
+  },
+  "hostingPlanName": {
+    "value": "NorthEurope"
+  },
+  "siteLocation": {
+    "value": "North Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "webinarcoffee"
+  },
+  "serverLocation": {
+    "value": "North Europe"
+  },
+  "administratorLogin": {
+    "value": "webinarroot"
+  },
+  "administratorLoginPassword": {
+    "value": "Rpgmakerxp12"
+  },
+  "databaseName": {
+    "value": "ApartmentService_db"
+  }
+}
